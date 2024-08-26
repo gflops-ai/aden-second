@@ -9,7 +9,7 @@ type Props = {
   fontSize?: number;
 };
 
-const defaultBackgroundColor = '#f7f8ff';
+const defaultBackgroundColor = '#FFFFFF'; /* 変更したよ#f7f8ff */ 
 const defaultTextColor = '#303235';
 const defaultFontSize = 16;
 

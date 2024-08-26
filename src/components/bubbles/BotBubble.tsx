@@ -27,7 +27,7 @@ type Props = {
   handleActionClick: (label: string, action: IAction | undefined | null) => void;
 };
 
-const defaultBackgroundColor = '#f7f8ff';
+const defaultBackgroundColor = '#FFFFFF';　/*変更したよ #f7f8ff*/
 const defaultTextColor = '#303235';
 const defaultFontSize = 16;
 const defaultFeedbackColor = '#3B81F6';
