@@ -25,30 +25,26 @@ import { JSX } from 'solid-js/jsx-runtime';
 const defaultButtonColor = '#3B81F6';
 
 export const ClipboardIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    class="icon icon-tabler icon-tabler-refresh w-4 h-4"
-    width="24"
-    height="24"
-    viewBox="0 0 16 16"
-    fill="none"
-    stroke={props.color ?? defaultButtonColor}
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+  <span
+    style={{
+      color: props.color ?? defaultButtonColor,
+      display: 'flex',
+    }}
   >
-    <path 
-      fill-rule="evenodd" 
-      clip-rule="evenodd" 
-      d="M4 2C4 0.89543 4.89543 0 6 0H14C15.1046 0 16 0.895431 16 2V10C16 11.1046 15.1046 12 14 12H6C4.89543 12 4 11.1046 4 10V2ZM6 1C5.44772 1 5 1.44772 5 2V10C5 10.5523 5.44772 11 6 11H14C14.5523 11 15 10.5523 15 10V2C15 1.44772 14.5523 1 14 1H6ZM2 5C1.44772 5 1 5.44772 1 6V14C1 14.5523 1.44772 15 2 15H10C10.5523 15 11 14.5523 11 14V13H12V14C12 15.1046 11.1046 16 10 16H2C0.89543 16 0 15.1046 0 14V6C0 4.89543 0.89543 4 2 4H3V5H2Z" 
-      fill="black"
-    />
-  </svg>
-);
-
-export const ClipboardWithLabel = () => (
-  <div class="clipboard-container">
-    <ClipboardIcon />
-    <span class="clipboard-label">コピー</span>
-  </div>
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill={props.color ?? defaultButtonColor}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M4 2C4 0.89543 4.89543 0 6 0H14C15.1046 0 16 0.895431 16 2V10C16 11.1046 15.1046 12 14 12H6C4.89543 12 4 11.1046 4 10V2ZM6 1C5.44772 1 5 1.44772 5 2V10C5 10.5523 5.44772 11 6 11H14C14.5523 11 15 10.5523 15 10V2C15 1.44772 14.5523 1 14 1H6ZM2 5C1.44772 5 1 5.44772 1 6V14C1 14.5523 1.44772 15 2 15H10C10.5523 15 11 14.5523 11 14V13H12V14C12 15.1046 11.1046 16 10 16H2C0.89543 16 0 15.1046 0 14V6C0 4.89543 0.89543 4 2 4H3V5H2Z"
+        fill="black"
+      />
+    </svg>
+    コピー
+  </span>
 );
