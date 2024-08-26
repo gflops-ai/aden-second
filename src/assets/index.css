@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.clipboard-container {
+  display: flex;
+}
+
+.clipboard-label {
+  margin-left: 8px;
+}
+/*上記はコピーの文言を追加したやつ*/
+
 :host {
   --chatbot-container-bg-image: none;
   --chatbot-container-bg-color: #FFFFFF;/*変更したよtransparent;*/
