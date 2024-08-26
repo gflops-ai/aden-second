@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bubble {
-  background-color: gray;
-  opacity: 0.3;
-  transition: opacity 0.5s;
-}
-
-.bubble.active {
-  opacity: 1;
-}
-
-/*上記.bubble以下追加したよ*/
-
 :host {
   --chatbot-container-bg-image: none;
   --chatbot-container-bg-color: #FFFFFF;/*変更したよtransparent;*/
@@ -209,9 +197,20 @@ textarea {
   border: 1px solid #0042da;
 }
 
+
+/*
 .chatbot-host-bubble {
   color: var(--chatbot-host-bubble-color);
-  background-color: #FFFFFF;/*変更したよ #f7f8ff*/
+  background-color: #FFFFFF; 変更したよ #f7f8ff
+} 元のやつ*/
+
+.chatbot-host-bubble {
+  color: var(--chatbot-host-bubble-color);
+  background-color: #FFFFFF; /* 変更したよ #f7f8ff */
+  border-top: 2px solid #ccc; /* 上部のボーダー */
+  border-bottom: 2px solid #ccc; /* 下部のボーダー */
+  padding: 1rem; /* コンテンツとボーダーの間にスペースを追加 */
+  border-radius: 5px; /* 全体的なボーダーの角を丸くする */
 }
 
 
