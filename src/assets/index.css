@@ -197,14 +197,29 @@ textarea {
   border: 1px solid #0042da;
 }
 
-.chatbot-host-bubble {
+/*.chatbot-host-bubble {
   color: var(--chatbot-host-bubble-color);
   background-color: #f7f8ff;
+}*/
+
+/*変更したやつ*/
+.chatbot-host-bubble {
+  color: var(--chatbot-host-bubble-color);
+  background-color: #ffffff; /* 背景色を白に変更 */
+  border-top: var(--chatbot-host-bubble-border); /* 上部にボーダーを追加 */
 }
 
-.chatbot-host-bubble > .bubble-typing {
+
+/*.chatbot-host-bubble > .bubble-typing {
   background-color: #f7f8ff;
   border: var(--chatbot-host-bubble-border);
+  border-radius: 6px;
+}*/
+
+/*変更したやつ*/
+.chatbot-host-bubble > .bubble-typing {
+  background-color: #ffffff; /* 背景色を白に変更 */
+  border-top: var(--chatbot-host-bubble-border); /* 上部にボーダーを追加 */
   border-radius: 6px;
 }
 
@@ -214,9 +229,18 @@ textarea {
   border-radius: var(--chatbot-border-radius);
 }
 
+
 .chatbot-guest-bubble {
   color: var(--chatbot-guest-bubble-color);
   background-color: #3b81f6;
+  border-radius: 6px;
+}*/
+
+/*変更したやつ*/
+.chatbot-guest-bubble {
+  color: var(--chatbot-guest-bubble-color);
+  background-color: #ffffff; /* 背景色を白に変更 */
+  border-top: var(--chatbot-guest-bubble-border); /* 上部にボーダーを追加 */
   border-radius: 6px;
 }
 
