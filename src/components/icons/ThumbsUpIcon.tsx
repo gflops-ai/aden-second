@@ -29,6 +29,6 @@ export const ThumbsUpIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
       display: 'flex',
     }}
   >
-    いい回答
+    良い回答
   </span>
 );

@@ -1,1 +1,1 @@
-{"version":3,"file":"ThumbsDownIcon.d.ts","sourceRoot":"","sources":["../../../src/components/icons/ThumbsDownIcon.tsx"],"names":[],"mappings":"AAoBA,OAAO,EAAE,GAAG,EAAE,MAAM,sBAAsB,CAAC;AAI3C,eAAO,MAAM,cAAc,UAAW,IAAI,gBAAgB,CAAC,aAAa,CAAC,gBAexE,CAAC"}
+{"version":3,"file":"ThumbsDownIcon.d.ts","sourceRoot":"","sources":["../../../src/components/icons/ThumbsDownIcon.tsx"],"names":[],"mappings":"AAoBA,OAAO,EAAE,GAAG,EAAE,MAAM,sBAAsB,CAAC;AAI3C,eAAO,MAAM,cAAc,UAAW,IAAI,gBAAgB,CAAC,aAAa,CAAC,gBASxE,CAAC"}
