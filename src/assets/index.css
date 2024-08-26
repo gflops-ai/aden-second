@@ -148,15 +148,15 @@ textarea {
 }
 
 .text-input::-webkit-input-placeholder {
-  color: #9095a0 !important;
+  color: #ffffff !important;/*変更したよ #9095a0*/
   opacity: 1 !important;
 }
 .text-input::-moz-placeholder {
-  color: #9095a0 !important;
+  color: #ffffff !important;/*変更したよ #9095a0*/
   opacity: 1 !important;
 }
 .text-input::placeholder {
-  color: #9095a0 !important;
+  color: #ffffff !important;/*変更したよ #9095a0*/
   opacity: 1 !important;
 }
 
