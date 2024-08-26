@@ -210,7 +210,7 @@ textarea {
   border-top: 2px solid #ccc; /* 上部のボーダー */
   border-bottom: 2px solid #ccc; /* 下部のボーダー */
   padding: 1rem; /* コンテンツとボーダーの間にスペースを追加 */
-  border-radius: 5px; /* 全体的なボーダーの角を丸くする */
+  border-radius: 0.1px; /* 全体的なボーダーの角を丸くする */
 }
 
 
