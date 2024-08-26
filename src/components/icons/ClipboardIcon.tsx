@@ -45,3 +45,10 @@ export const ClipboardIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
     />
   </svg>
 );
+
+export const ClipboardWithLabel = () => (
+  <div class="clipboard-container">
+    <ClipboardIcon />
+    <span class="clipboard-label">コピー</span>
+  </div>
+);
