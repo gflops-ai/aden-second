@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.bubble {
+  background-color: gray;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+.bubble.active {
+  opacity: 1;
+}
+
+/*上記.bubble以下追加したよ*/
+
 :host {
   --chatbot-container-bg-image: none;
   --chatbot-container-bg-color: #FFFFFF;/*変更したよtransparent;*/
