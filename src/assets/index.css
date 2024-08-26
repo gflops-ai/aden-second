@@ -204,7 +204,7 @@ textarea {
 
 
 .chatbot-host-bubble > .bubble-typing {
-  background-color: #f7f8ff;
+  background-color: #FFFFFF;/*変更したよ #f7f8ff*/
   border: var(--chatbot-host-bubble-border);
   border-radius: 6px;
 }
