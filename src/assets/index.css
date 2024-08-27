@@ -221,7 +221,6 @@ textarea {
   border-bottom: 2px solid #ccc;
   padding: 1rem; /* コンテンツとボーダーの間にスペースを追加 */
   border-radius: 0; /* 全ての角の丸みをなくす */
-  border: var(--chatbot-host-bubble-border, none); /* デフォルト値を指定して安心 */
 } 
 
 .chatbot-host-bubble > .bubble-typing {
