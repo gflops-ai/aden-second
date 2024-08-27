@@ -304,7 +304,7 @@ export const BotBubble = (props: Props) => {
               <CopyToClipboardButton feedbackColor={props.feedbackColor} onClick={() => copyMessageToClipboard()} />
               <Show when={copiedMessage()}>
                 <div class="copied-message" style={{ color: props.feedbackColor ?? defaultFeedbackColor }}>
-                  Copied!
+                  コピーしました!
                 </div>
               </Show>
               {rating() === '' || rating() === 'THUMBS_UP' ? (

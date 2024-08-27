@@ -46,6 +46,7 @@ export const ThumbsUpIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
     display: 'flex',
     'align-items' : 'center', // アイコンとテキストを中央揃いにする
     gap: '4px' // アイコンとテキストの間にスペースを追加（必要に応じて調整）
+    "font-weight": 300 // テキストを細くする
   }}
   >
     <svg

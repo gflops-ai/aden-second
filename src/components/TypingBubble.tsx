@@ -9,7 +9,7 @@
 
 export const TypingBubble = () => (
   <div class="flex items-center">
-    <span class="mr-2">回答生成中</span>
+    <span class="mr-2">Dona考え中</span>
     <div class="w-1 h-1 mr-0.5 rounded-full bubble1" />
     <div class="w-1 h-1 mr-0.5 rounded-full bubble2" />
     <div class="w-1 h-1 rounded-full bubble3" />
