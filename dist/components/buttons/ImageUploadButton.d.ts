@@ -4,6 +4,7 @@ type ImageUploadButtonProps = {
     isDisabled?: boolean;
     isLoading?: boolean;
     disableIcon?: boolean;
+    isHidden?: boolean;
 } & JSX.ButtonHTMLAttributes<HTMLButtonElement>;
 export declare const ImageUploadButton: (props: ImageUploadButtonProps) => JSX.Element;
 export declare const Spinner: (props: JSX.SvgSVGAttributes<SVGSVGElement>) => JSX.Element;
