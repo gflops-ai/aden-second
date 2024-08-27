@@ -213,20 +213,24 @@ textarea {
   background-color: #FFFFFF; 変更したよ #f7f8ff
 } 元のやつ*/
 
+
 .chatbot-host-bubble {
   color: var(--chatbot-host-bubble-color);
-  background-color: #FFFFFF; /* 変更したよ #f7f8ff */
+  background-color: #FFFFFF; /* 背景色を設定 */
   border-top: 2px solid #ccc; /* 上部のボーダー */
   border-bottom: 2px solid #ccc; /* 下部のボーダー */
   padding: 1rem; /* コンテンツとボーダーの間にスペースを追加 */
-  border-radius: 0; /* 全体的なボーダーの角を丸くする */
+  border-top-left-radius: 0; /* 上部左の丸みを削除 */
+  border-top-right-radius: 0; /* 上部右の丸みを削除 */
+  border-bottom-left-radius: var(--chatbot-border-radius); /* 下部左の丸みは維持 */
+  border-bottom-right-radius: var(--chatbot-border-radius); /* 下部右の丸みは維持 */
 }
 
-
 .chatbot-host-bubble > .bubble-typing {
-  background-color: #FFFFFF;/*変更したよ #f7f8ff*/
+  background-color: #FFFFFF; /* 変更済み */
   border: var(--chatbot-host-bubble-border);
-  border-radius: 0px;
+  border-top-left-radius: 0; /* 上部左の丸みを削除 */
+  border-top-right-radius: 0; /* 上部右の丸みを削除 */
 }
 
 
