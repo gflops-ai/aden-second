@@ -26,10 +26,12 @@ const defaultButtonColor = '#3B81F6';
 
 export const ClipboardIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
   <span
-    style={{
-      color: props.color ?? defaultButtonColor,
-      display: 'flex',
-    }}
+  style={{
+    color: props.color ?? defaultButtonColor,
+    display: 'flex',
+    'align-items' : 'center', // アイコンとテキストを中央揃いにする
+    gap: '4px' // アイコンとテキストの間にスペースを追加（必要に応じて調整）
+  }}
   >
     <svg
       width="16"
