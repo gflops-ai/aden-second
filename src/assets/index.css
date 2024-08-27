@@ -32,7 +32,7 @@
   --chatbot-header-bg-color: #ffffff;
   --chatbot-header-color: #303235;
 
-  --chatbot-border-radius: 6px;
+  --chatbot-border-radius: 0px;
 
   /* Phone input */
   --PhoneInputCountryFlag-borderColor: transparent;
@@ -216,23 +216,18 @@ textarea {
 
 .chatbot-host-bubble {
   color: var(--chatbot-host-bubble-color);
-  background-color: #FFFFFF; /* 背景色を設定 */
-  border-top: 2px solid #ccc; /* 上部のボーダー */
-  border-bottom: 2px solid #ccc; /* 下部のボーダー */
+  background-color: #FFFFFF; /* 更新前は #f7f8ff */
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
   padding: 1rem; /* コンテンツとボーダーの間にスペースを追加 */
-  border-top-left-radius: 0; /* 上部左の丸みを削除 */
-  border-top-right-radius: 0; /* 上部右の丸みを削除 */
-  border-bottom-left-radius: var(--chatbot-border-radius); /* 下部左の丸みは維持 */
-  border-bottom-right-radius: var(--chatbot-border-radius); /* 下部右の丸みは維持 */
-}
+  border-radius: 0; /* 全ての角の丸みをなくす */
+} 
 
 .chatbot-host-bubble > .bubble-typing {
-  background-color: #FFFFFF; /* 変更済み */
-  border: var(--chatbot-host-bubble-border);
-  border-top-left-radius: 0; /* 上部左の丸みを削除 */
-  border-top-right-radius: 0; /* 上部右の丸みを削除 */
+  background-color: #FFFFFF; /* 更新前は #f7f8ff */
+  border: var(--chatbot-host-bubble-border, none); /* デフォルト値を指定して安心 */
+  border-radius: 0; /* 全ての角の丸みをなくす */
 }
-
 
 .chatbot-host-bubble img,
 .chatbot-host-bubble iframe,
