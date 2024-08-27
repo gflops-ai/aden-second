@@ -139,6 +139,7 @@ export const TextInput = (props: Props) => {
               class="m-0 h-14 flex items-center justify-center"
               isDisabled={props.disabled || isSendButtonDisabled()}
               on:click={handleImageUploadClick}
+              hidden={true}  // hidden プロパティによる制御
             >
               <span style={{ 'font-family': 'Poppins, sans-serif' }}>Image Upload</span>
             </ImageUploadButton>
