@@ -13,13 +13,13 @@
 
 :host {
   --chatbot-container-bg-image: none;
-  --chatbot-container-bg-color: #FFFFFF;/*変更したよtransparent;*/
+  --chatbot-container-bg-color: transparent;
   --chatbot-container-font-family: 'Open Sans';
 
   --chatbot-button-bg-color: #0042da;
   --chatbot-button-color: #ffffff;
 
-  --chatbot-host-bubble-bg-color: #FFFFFF;/*変更したよ #f7f8ff*/
+  --chatbot-host-bubble-bg-color: #f7f8ff;
   --chatbot-host-bubble-color: #303235;
 
   --chatbot-guest-bubble-bg-color: #3b81f6;
@@ -157,15 +157,15 @@ textarea {
 }
 
 .text-input::-webkit-input-placeholder {
-  color: #ffffff !important;/*変更したよ #9095a0*/
+  color: #9095a0 !important;
   opacity: 1 !important;
 }
 .text-input::-moz-placeholder {
-  color: #ffffff !important;/*変更したよ #9095a0*/
+  color: #9095a0 !important;
   opacity: 1 !important;
 }
 .text-input::placeholder {
-  color: #ffffff !important;/*変更したよ #9095a0*/
+  color: #9095a0!important;
   opacity: 1 !important;
 }
 
@@ -202,7 +202,7 @@ textarea {
 
 .chatbot-button.selectable {
   color: var(--chatbot-host-bubble-color);
-  background-color: #FFFFFF;/*変更したよ #f7f8ff*/
+  background-color: #f7f8ff;
   border: 1px solid #0042da;
 }
 
@@ -226,7 +226,7 @@ textarea {
 .chatbot-host-bubble > .bubble-typing {
   background-color: #FFFFFF;/*変更したよ #f7f8ff*/
   border: var(--chatbot-host-bubble-border);
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 
