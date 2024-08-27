@@ -217,8 +217,8 @@ textarea {
 .chatbot-host-bubble {
   color: var(--chatbot-host-bubble-color);
   background-color: #FFFFFF; /* 更新前は #f7f8ff */
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 0.5px solid #ccc;
+  border-bottom: 0.5px solid #ccc;
   padding: 1rem; /* コンテンツとボーダーの間にスペースを追加 */
   border-radius: 0; /* 全ての角の丸みをなくす */
 } 
