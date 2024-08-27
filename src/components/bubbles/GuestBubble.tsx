@@ -16,8 +16,8 @@ type Props = {
   fontSize?: number;
 };
 
-const defaultBackgroundColor = '#3B81F6';
-const defaultTextColor = '#ffffff';
+const defaultBackgroundColor = '#ffffff';
+const defaultTextColor = '#3B81F6';
 const defaultFontSize = 16;
 
 Marked.setOptions({ isNoP: true });
