@@ -31,6 +31,6 @@ export const SendIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
         fill="black"
       />
     </svg>
-    送信
+    <span style={{ 'font-weight': 100 }}></span>送信
   </span>
 );

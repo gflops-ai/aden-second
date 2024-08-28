@@ -43,7 +43,6 @@ export const ThumbsDownIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
         fill="black"
       />
     </svg>
-    <span style={{ 'font-weight': 'lighter' }}></span>
-    悪い回答
+    <span style={{ 'font-weight': 100 }}> 悪い回答</span>
   </span>
 );
