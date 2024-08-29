@@ -20,7 +20,7 @@ export const ThumbsDownIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
 
 import { JSX } from 'solid-js/jsx-runtime';
 
-const defaultButtonColor = '#3B81F6';
+const defaultButtonColor = '#ccc';
 
 export const ThumbsDownIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
   <span
