@@ -47,6 +47,6 @@ export const ClipboardIcon = (props: JSX.SvgSVGAttributes<SVGSVGElement>) => (
         fill="black"
       />
     </svg>
-    <span style={{ 'font-weight': 100 }}>コピー</span>
+    <span style={{ 'font-weight': 100, color: '#7C7C7C' }}>コピー</span>
   </span>
 );
