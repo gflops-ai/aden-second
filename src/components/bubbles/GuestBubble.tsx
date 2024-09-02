@@ -16,8 +16,11 @@ type Props = {
   fontSize?: number;
 };
 
-const defaultBackgroundColor = '#ffffff';
-const defaultTextColor = '#7C7C7C';
+// const defaultBackgroundColor = '#ffffff';
+// const defaultTextColor = '#7C7C7C';
+// ユーザーのメッセージの背景色とテキストカラーを変更
+const defaultBackgroundColor = '#3B81F6';
+const defaultTextColor = '#FFFFFF';
 const defaultFontSize = 16;
 
 Marked.setOptions({ isNoP: true });
